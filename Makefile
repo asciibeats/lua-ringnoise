@@ -24,7 +24,7 @@ install:
 	cp $(OUTFILE) $(LUA_LIBDIR)
 
 uninstall:
-	rm -f $(LUA_LIBDIR)/$(LUA_OUTFILE)
+	rm -f $(LUA_LIBDIR)/$(OUTFILE)
 
 clean:
 	rm -f $(OUTFILE) src/*.o
