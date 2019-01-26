@@ -10,10 +10,6 @@
   #include <lauxlib.h>
 #endif
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 static int ringnoise_perlin4(lua_State *L)
 {
 	float x = luaL_checknumber(L, 1);
@@ -77,7 +73,3 @@ int luaopen_ringnoise(lua_State *L)
   luaL_newlib(L, lringnoiselib_f);
 	return 1;
 }
-
-#ifdef __cplusplus
-}
-#endif
