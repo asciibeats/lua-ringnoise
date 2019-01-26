@@ -1,5 +1,5 @@
 # lua-ringnoise
-A lua module using libringnoise to create seamless tileable noise
+A lua module using [libringnoise](https://github.com/asciibeats/libringnoise) to create seamless tileable noise
 
 ## Build and install
 ```
